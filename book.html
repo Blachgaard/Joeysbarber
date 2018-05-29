@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta name="desription" Content="Vi tilbyder alle former for barberinger og klipninger til en utrolig skarp pris. Ved hjælp af vores bookingsystem er det super nemt at bestille en tid, lige når det passer dig!">
+    <meta name=author Content="Patrick Blachgaard">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book tid til en klipning/barbering | Joey’s Barber</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <div class="pole">
+        </div>
+        <img class="joeylogo" src="images/logo.png" alt="Logoet for barbersalonen Joey's Barber">
+        <nav>
+            <div class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
+                    <a href="index.html" title="Gå til Forsiden">Forside</a>
+                    <a href="om.html" title="Gå til Om Joey's Barber">Om Joey's barber</a>
+                    <a href="priser.html" title="Gå til Priser">Priser</a>
+                    <a class="box" href="book.html" title="Gå til Book en tid">Book en tid</a>
+                    <a href="kontakt.html" title="Gå til Kontakt">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+        <!-- KNAP HER -->
+        <div id="cv">
+            <a href="book.html" title="Book tid her">Book tid her</a>
+        </div>
+        <h2>eller ring til os på tlf.: <a href="tel:+4586232222" title="Ring og bestil tid">( 86 23 22 22 ) </a></h2>
+
+    </header>
+    <!-- Snippet fra "https://codepen.io/gymratpacks/pen/VKzBEp?editors=1100" -->
+    <form action="index.html" method="post">
+        <h1>Bestil din tid</h1>
+        <fieldset>
+            <legend><span class="number">1</span>Dine informationer</legend>
+            <input type="text" placeholder="Dit navn" id="name" name="customer_name">
+            <input type="email" placeholder="Din e-mail" id="mail" name="customer_email">
+            <input type="tel" placeholder="Dit telefonnummer" id="tel" name="customer_phone">
+            <input type="date" id="date" name="bookin_date">
+            <input type="time" id="time" name="booking_time"><br>
+            <legend><span class="number">2</span>Behandlinger</legend>
+            <input type="checkbox" id="klipning" value="klipning" name="Klipning">
+            <label for="klipning" class="light">Klipning</label>
+            <input type="checkbox" id="barbering" value="barbering" name="Barbering">
+            <label for="barbering" class="light">Barbering</label>
+            <input type="checkbox" id="ansightbehandling" value="ansightbehandling" name="ansightbehandling">
+            <label for="ansightbehandling" class="light">Ansightbehandling</label>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Bemærkninger:</label>
+            <textarea id="bio" name="customer_wishes"></textarea>
+        </fieldset>
+        <button type="submit">Fuldend booking</button>
+    </form>
+    <footer>
+        <div>
+            <p>Thorvaldsensgade 30<br>8000 Aarhus C</p>
+            <p>Tlf. 86 23 22 22</p>
+            <p>kontakt@joeysbarber.dk</p>
+        </div>
+        <div>
+            <p>Man-Ons: 10-16</p>
+            <p>Tors-Fre: 10-18</p>
+            <p>Lør: 10-14</p>
+            <p>Søn: Lukket</p>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/joeysbarber/"><img src="images/instagram.png" alt="Instagram side for Joey's Barber"></a>
+            <a href="https://www.facebook.com/Joeysbarber30/"><img src="images/facebook.png" alt="Facebook side for Joey's Barber"></a>
+        </div>
+    </footer>
+</body>
+</html>
