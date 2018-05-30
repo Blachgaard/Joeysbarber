@@ -284,11 +284,6 @@ label {
     text-align: justify;
 }
 
-.priser p {
-    line-height: 40px;
-    text-align: center;
-}
-
 .priser-left {
     flex: 40%;
 }
